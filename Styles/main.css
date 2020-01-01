@@ -1,0 +1,310 @@
+/*Globals*/
+* {
+ box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 13px;
+  color: white
+}
+
+.Pachaqtec{
+  position: absolute;
+  width: 1665.47px;
+  height: 1078.86px;
+  left: 0;
+  top: 9.04px;
+  background: url(./images/portada.png);
+  }
+
+h1 {
+  position: absolute;
+  width: 321px;
+  height: 74px;
+  left: 350px;
+  top: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+}
+
+.Nombre{
+  position: absolute;
+  width: 361px;
+  height: 97px;
+  left: 68px;
+  top: 286px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  position: absolute;
+  width: 365px;
+  height: 117px;
+  left: 52px;
+  top: 270px;
+  background: rgba(114, 153, 254, 0.5);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.SobreMi{
+  position: absolute;
+  width: 960px;
+  height: 424px;
+  left: 0px;
+  top: 525px;
+  background: #7299FE;
+  }
+
+.SobreMi__subtitulo{
+  position: absolute;
+  width: 155px;
+  height: 41px;
+  left: 408px;
+  top: 5px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.SobreMi__parrafo{
+  position: absolute;
+  width: 872px;
+  height: 318px;
+  left: 41px;
+  top: 100px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.SobreMi__botoncv{
+  position: absolute;
+  width: 187px;
+  height: 62px;
+  left: 38px;
+  top: 280px;
+  background: #D16FFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color:white;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  padding: 25px 25px 50px 60px;
+}
+
+.MisSkills{
+  position: absolute;
+  width: 960px;
+  height: 424px;
+  left: 0px;
+  top: 949px;
+  background: #9122FF;
+  }
+
+.MisSkills__titulo{
+  position: absolute;
+  width: 165px;
+  height: 41px;
+  left: 404px;
+  top: 10px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.MisSkills__subtitulo{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 auto 8px auto;
+  }
+
+.MisSkills__card{
+  position: absolute;
+  width: 350px;
+  height: 70px;
+}
+
+.MisSkills__card:nth-child(2){
+  left: 65px;
+  top: 100px;
+}
+
+.MisSkills__card:nth-child(3){
+  left: 65px;
+  top: 175px;
+}
+
+.MisSkills__card:nth-child(4){
+  left: 65px;
+  top: 250px;
+}
+
+.MisSkills__card:nth-child(5){
+  left: 500px;
+  top: 100px;
+}
+
+.MisSkills__card:nth-child(6){
+  left: 500px;
+  top: 175px;
+}
+
+.MisSkills__card:nth-child(7){
+  left: 500px;
+  top: 250px;
+}
+
+.MisSkills__barratot{
+  width: 350px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.MisSkills__barrareal{
+width: 185px;
+height: 20px;
+background: #57EFF9;
+border-radius: 10px;
+}
+
+.Portafolio{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1 1 1 1;
+  grid-template-rows: 1 1 1;
+  justify-items: center;
+  padding: 0px 150px 100px 150px;
+  width: 960px;
+  height: 424px;
+  left: 0px;
+  top: 373px;
+  background: #FFD233;
+}
+
+.Portafolio__titulo{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  width: 169px;
+  height: 41px;
+  left: 399px;
+  top: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;  
+}
+
+.Portafolio__imagen{
+  width: 140px;
+  height: 92px;
+}
+
+.Clientes{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1 1 1 1;
+  grid-template-rows: 1 1;
+  justify-items: center;
+  align-items: center;
+  width: 960px;
+  left: -1px;
+  top: 797px;
+  padding: 50px 75px 100px 75px;
+  background: #3F4E62;
+}
+
+.Clientes__titulo{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin: 0 0 20px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.Clientes__imagen{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.Contacto{
+  position: absolute;
+  width: 960px;
+  height: 578px;
+  left: 0px;
+  top: 1075px;
+  background: #1687A0;
+}
+
+.Contacto__titulo{
+  width: 157px;
+  height: 41px;
+  padding: 0 0 0 400px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.Contacto__form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 0 50px 0 50px;
+}
+.Contacto__dato{
+  width: 363px;
+  height: 59px; 
+}
+
+.Contacto__texto{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 759px;
+  height: 112px;
+  border: 1px solid #BFBFBF;
+}
+
+.Contacto__botonlink{
+  width: 167px;
+  height: 56px;
+  background: #233451;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-self: center;  
+  font-family: Helvetica;
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.Contact__botonenviar{
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+}
+
+
+
